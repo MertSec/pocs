@@ -34,7 +34,7 @@ def rce():
 window = tk.Tk()
 window.title("亿赛通电子文档远程命令执行检测工具")
 window.configure(bg="#303030")
-window.iconbitmap('imgs/ahon4-77wsm-001.ico')
+window.iconbitmap('ahon4-77wsm-001.ico')
 window.resizable(False, False)
 url_label = tk.Label(window, text="请输入检测的URL:", bg="#303030", fg="white") 
 url_label.grid(row=0, column=0, padx=10, pady=10)
